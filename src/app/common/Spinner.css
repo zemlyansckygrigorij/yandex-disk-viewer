@@ -1,0 +1,16 @@
+.spinner {
+  --border-size: 0.25rem;
+  --spinner-size: 3rem;
+  border: var(--border-size) solid var(--light);
+  border-top: var(--border-size) solid var(--gray-dark);
+  border-radius: 50%;
+  width: var(--spinner-size);
+  height: var(--spinner-size);
+  animation: spin 2s linear infinite;
+  margin: 1rem auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

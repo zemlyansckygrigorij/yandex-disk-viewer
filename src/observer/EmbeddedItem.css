@@ -1,0 +1,17 @@
+.viewer__embedded-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.viewer__embedded-item__info {
+  display: inline-flex;
+  flex-basis: auto;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.viewer__embedded-item__file-type-icon {
+  margin-right: 0.5rem;
+}
